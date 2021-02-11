@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="logo header__logo">
+      <a class="logo__link" href="#">
+       <img class="logo__link-img" src="images/logo.svg" alt="logo"> 
+      </a>
+    </div>
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link menu__list-link--active">О нас</a>
+        </li>
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link">Дома</a>
+        </li>
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link">Квартиры</a>
+        </li>
+        <li class="menu__list-item">
+          <a href="#" class="menu__list-link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<section class="slider">
+  <div class="slider__item" style="background-image: url(images/slider-item.jpg)"></div>
+  <div class="slider__item" style="background-image: url(images/slider-item.jpg)"></div>
+  <div class="slider__item" style="background-image: url(images/slider-item.jpg)"></div>
+</section>
+
+<section class="search">
+  <div class="search__inner">
+    <form action="" class="search__form">
+      <label class="search__form-label">Поиск Аппартаментов</label>
+      <input type="text" class="search__form-input" placeholder="Введите город">
+      <button class="search__form-btm" type="submit">Найти</button>
+    </form>
+  </div>
+</section>
+<section class="popular">
+  <h3 class="popular__title">
+    Самые популярные варианты
+  </h3>
+  <div class="container">
+    <div class="popular__inner">
+
+      <div class="popular__item">
+        <img class="popular__img" src="images/popular-1.jpg" alt="popular-img">
+        <h5 class="popular__item-title">Апартаменты Москва</h5>
+        <button class="popular__link" href="#">детали</button>
+      </div>
+
+      <div class="popular__item">
+        <img class="popular__img" src="images/popular-2.jpg" alt="popular-img">
+        <h5 class="popular__item-title">Апартаменты Киев</h5>
+        <button class="popular__link" href="#">детали</button>
+      </div>
+
+      <div class="popular__item">
+        <img class="popular__img" src="images/popular-3.jpg" alt="popular-img">
+        <h5 class="popular__item-title">Коттедж Modern Лос Анджелес</h5>
+        <button class="popular__link" href="#">детали</button>
+      </div>
+
+      <div class="popular__item">
+        <img class="popular__img" src="images/popular-4.jpg" alt="popular-img">
+        <h5 class="popular__item-title">Коттедж Семейный Лондон</h5>
+        <button class="popular__link" href="#">детали</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+
