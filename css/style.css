@@ -13,6 +13,12 @@ body {
     color: #000;
 }
 
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .header {
     text-align: center;
 }
@@ -150,6 +156,10 @@ body {
     left: 9px;
 }
 
+.popular {
+    text-align: center;
+}
+
 .popular__title {
     background-color: #000;
     color: #fff;
@@ -157,7 +167,95 @@ body {
     font-family: 'PT Serif', serif;
     line-height: 64px;
     font-size: 48px;
-    text-align: center;
     padding: 18px 15px;
     font-weight: 400;
+}
+
+.popular__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.popular__img {
+    width: 280px;
+    height: 280px;  
+    border-radius: 50%;  
+    object-fit: cover; /*позицианирует(соблюдает пропорции картинки)*/
+}
+
+.popular__item-title {
+    padding: 30px 10px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #888;
+}
+
+.popular__link {
+    background-color: #c4c4c4;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 48px;
+}
+
+.reason {
+    padding: 100px 0;
+}
+
+.reason__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason__item {
+    width: 470px;
+}
+
+.reason__title {
+    font-family: 'PT Serif', serif;
+    line-height: 36px;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-left: 136px;
+    position: relative;
+}
+
+.reason__title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 103px;
+    height: 103px;
+
+}
+
+.reason__title--icon-1::before {
+    background-image: url(../images/time-icon.png);
+}
+
+.reason__title--icon-2::before {
+    background-image: url(../images/world-icon.png);
+}
+
+.reason__text {
+    margin-bottom: 42px;
+}
+
+.reason__link {
+    color: #888;
+    padding-left: 36px;
+    position: relative;
+}
+
+.reason__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/arrow-black.svg);
 }
