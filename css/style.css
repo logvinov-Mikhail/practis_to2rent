@@ -316,8 +316,11 @@ body {
     margin-bottom: 27px;
 }
 
-.our-managers__items {
+.our-managers {
     width: 297px;
+}
+
+.our-managers__items {
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -377,6 +380,7 @@ body {
     width: 300px;
     height: 127px;
     margin-bottom: 22px;
+    object-fit: cover;
 }
 
 .reviews__text {
@@ -393,4 +397,87 @@ body {
     display: inline-block;
 }
 
+.footer {
 
+}
+
+.footer__top {
+    padding: 100px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.footer__top-inner {
+    display: flex;
+    align-items: center;
+}
+
+.footer__menu {
+
+}
+
+.footer__menu-list {
+    list-style: none;
+    width: 250px;
+    margin-right: 50px;
+
+}
+
+.footer__menu-item {
+
+}
+
+.footer__menu-link {
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__form {
+    display: flex;
+    align-items: center;
+}
+
+.footer__form-label {
+    line-height: 18px;
+    color: #888;
+    margin-right: 10px;
+}
+
+.footer__form-input {
+    display: block;
+    width: 511px;
+    height: 69px;
+    background-color: #fff;
+    border: none;
+    padding: 0 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #888;
+
+}
+
+.footer__form-input::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #888;
+}
+
+.footer__form-btn {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    background-color: #c4c4c4;
+    padding: 27px 35px;
+}
+
+.footer__logo {
+    text-align: center;
+    padding: 3px 0 23px;
+}
